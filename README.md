@@ -2,7 +2,7 @@
 
 ## 1 AngularJS + PHP(On AWS EC2 Instance)
 
-**Demo Video Link**: [https://www.youtube.com/watch?v=KwaH1_VxOLw]（https://www.youtube.com/watch?v=KwaH1_VxOLw）
+**Demo Video Link**: [https://www.youtube.com/watch?v=KwaH1_VxOLw](https://www.youtube.com/watch?v=KwaH1_VxOLw)
 
 <p align="center">
 <img src="image/angular1.png"  style="width: 600px;"/>
