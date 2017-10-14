@@ -17,33 +17,33 @@
 **Demo Video Link**: [https://www.youtube.com/watch?v=zc-oR3UFYGg](https://www.youtube.com/watch?v=zc-oR3UFYGg)
 
 <p align="center">
-<img src="image/android1.png"  style="width: 300px;"/>
+<img src="image/android1.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android2.png"  style="width: 300px;"/>
+<img src="image/android2.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android3.png"  style="width: 300px;"/>
+<img src="image/android3.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android4.png"  style="width: 300px;"/>
+<img src="image/android4.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android5.png"  style="width: 300px;"/>
+<img src="image/android5.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android6.png"  style="width: 300px;"/>
+<img src="image/android6.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android7.png"  style="width: 300px;"/>
+<img src="image/android7.png"  style="width: 150px;"/>
 </p>
 
 <p align="center">
-<img src="image/android8.png"  style="width: 300px;"/>
+<img src="image/android8.png"  style="width: 150px;"/>
 </p>
