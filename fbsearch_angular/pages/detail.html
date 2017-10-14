@@ -1,0 +1,51 @@
+
+<div class="container detail-container col-xs-12" >
+  <div class="row button-container">
+    <div class="col-sm-12">
+      <button ng-click="go('/')" class="btn btn-default pull-left"><i class='glyphicon glyphicon-chevron-left'></i>Back</button>
+      <button id="fb-button" ng-click="fbPost()" class="btn btn-default btn-fb detail-btn pull-right" ><img src='facebook.png'/></button>
+      <button id="detail-favor-btn" class='btn btn-default btn-favor detail-btn pull-right' ng-click="detailFavor(typeFavor, detailID)"><i class='glyphicon glyphicon-star-empty'></i></button>
+    </div>
+  </div>
+
+  <div class="row album-post">
+    <div class="col-sm-6">
+      <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading" >
+                    <h4 class="panel-title">Albums</h4>
+                </div>
+
+                <div class="panel-collapse" >
+                    <div class="panel-body">
+                        <div id="albums" class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading" >
+                    <h4 class="panel-title">Posts</h4>
+                </div>
+
+                <div class="panel-collapse" >
+                    <div class="panel-body">
+                        <div id="posts" class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+  </div>
+</div>

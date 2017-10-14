@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Search on FB</string>
+
+    <!--Drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Menu Item Names-->
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_other">Other</string>
+    <string name="menu_other_about">About Me</string>
+
+    <!--Titles of Activities-->
+    <string name="activity_title_result">Results</string>
+    <string name="activity_title_about">About Me</string>
+    <string name="activity_title_detail">More Details</string>
+    <string name="activity_title_favor">Favorites</string>
+    <string name="activity_title_share">Share to Facebook</string>
+
+    <!--Main Activity-->
+    <string name="search_label">Enter a keyword:</string>
+    <string name="clear_button">CLEAR</string>
+    <string name="search_button">SEARCH</string>
+
+    <!--About Me Activity-->
+    <string name="my_name">Hongzhao Zhu</string>
+    <string name="my_id">8045511695</string>
+
+    <!--GPS Alert Dialogs-->
+    <string name="GPSAlertDialogMessage">Please enable your Network And GPS settings!</string>
+    <string name="GPSAlertDialogTitle">Location Service</string>
+    <string name="GPSAlertDialogCancel">Cancel</string>
+    <string name="GPSAlertDialogSetting">Setting</string>
+
+    <!--Result Buttons-->
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Prev</string>
+
+    <!--Detail Fragment-->
+    <string name="no_album">No albums available to display</string>
+    <string name="no_post">No posts available to display</string>
+
+    <!--Menu Options-->
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favor">Add to Favorites</string>
+    <string name="action_remove_favor">Remove from Favorites</string>
+    <string name="action_share">Share</string>
+    <string name="toast_remove_text">Removed from Favorites!</string>
+    <string name="toast_add_text">Added to Favorites!</string>
+
+    <!--Facebook SDK-->
+    <string name="facebook_app_id">1170207316430580</string>
+
+
+</resources>

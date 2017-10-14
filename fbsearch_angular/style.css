@@ -1,0 +1,208 @@
+/* Remove all the border-radius of default bootstrap setting */
+nav,
+nav * {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+/* Body */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Navigation bar */
+.navbar-default .navbar-brand {
+  color: #013590;
+}
+#btn-submit {
+  background-color: #013590;
+  color: white;
+  width: 60px;
+}
+
+#btn-clear {
+  background-color: white;
+  color: #013590;
+  border: 1px solid #013590;
+  left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-text {
+    width: 80%;
+  }
+
+  #btn-submit-div {
+    width: 10%;
+  }
+
+  #btn-clear-div {
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input-text {
+    width: 65%;
+  }
+
+  #btn-submit-div {
+    width: 15%;
+  }
+
+  #btn-clear-div {
+    width: 15%;
+  }
+}
+
+/* Tab bar */
+.nav-pills {
+  border-bottom: 2px solid #013590;
+  background-color: white;
+}
+
+.nav-pills li a,
+.nav-pills li a:hover,
+.nav-pills li a:focus {
+  color: black;
+  background: white;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus {
+  color: white;
+  background: #013590;
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-pills li a {
+    padding: 3px 10px;
+  }
+}
+
+/* User table */
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.table tr th,
+.table tr td {
+  vertical-align: middle !important;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-content .container {
+    width: 98% !important;
+  }
+}
+
+.btn-detail,
+.btn-favor {
+  width: 40px;
+  height: 35px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  /*border-radius: 4px;*/
+}
+
+
+i.glyphicon-star {
+  color: yellow;
+}
+
+.paging {
+  text-align: center;
+}
+
+.btn-prev,
+.btn-next {
+  width: 80px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#table-progressbar .progress {
+  position: relative;
+  margin-top:200px;
+}
+
+@media screen and (max-width: 768px) {
+  #table-progressbar .progress {
+    position: relative;
+    margin-top: 100px;
+  }
+}
+
+
+/* Detail container  */
+.btn-fb {
+  width: 44px;
+  height: 35px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+}
+
+.btn-fb img {
+  width:20px;
+  height:20px;
+}
+
+/*.btn-favor {
+  align-self: flex-end;
+}*/
+
+
+.detail-container {
+  /*width: 100%;*/
+}
+
+.album-post {
+  position: relative;
+  margin-top: 20px;
+  /*top: 20px;*/
+}
+
+/* Albums */
+.album-pic {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  position:relative;
+  margin-bottom: 20px;
+}
+
+/* Posts */
+.panel-post {
+  position:relative;
+  margin-bottom: 20px !important;
+  padding: 10px;
+}
+
+.name-div {
+  padding-left: 40px;
+}
+.post-pic {
+  width: 35px;
+  height: 35px;
+}
+
+.post-time {
+  color: gray;
+}

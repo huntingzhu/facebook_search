@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:textStyle="bold"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/star"
+            android:textStyle="bold"
+            android:title="@string/menu_favorites" />
+
+
+    </group>
+
+    <item android:title="@string/menu_other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_me"
+                android:textStyle="bold"
+                android:title="@string/menu_other_about" />
+        </menu>
+    </item>
+
+</menu>

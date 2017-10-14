@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.huntingzhu.searchonfb.DetailActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:background="@color/colorWhite"
+        android:textAllCaps="false"
+        app:tabTextAppearance="@style/TabLayoutCustomTextAppearance"
+        app:tabMode="fixed"
+        app:tabBackground="@color/colorWhite"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabTextColor="@color/colorBlack" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@color/colorLightGray" />
+
+</LinearLayout>

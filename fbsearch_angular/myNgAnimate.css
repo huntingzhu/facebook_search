@@ -1,0 +1,57 @@
+.view-animate-container {
+  position:relative;
+
+}
+
+.view-animate {
+  animation-duration: 0.30s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 0.30s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.view-animate.ng-leave,
+.view-animate.ng-enter {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s;
+
+  display:block;
+
+  /*overflow: hidden;*/
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+/* From right to left  */
+.view-animate.ng-enter {
+  left: -100%;
+  right: 100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+  left: 0%;
+  right: 0%;
+}
+.view-animate.ng-leave {
+  left:100%;
+}
+.view-animate.ng-leave.ng-leave-active {
+  left:100%;
+}
+
+/* From left to right */
+.reverse .view-animate.ng-enter {
+  left: 100%;
+  right: -100%;
+}
+.reverse .view-animate.ng-enter.ng-enter-active {
+  left: 0%;
+  right: 0%;
+}
+.reverse .view-animate.ng-leave {
+  right: -100%;
+}
+.reverse .view-animate.ng-leave.ng-leave-active {
+  right: -100%;
+}
